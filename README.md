@@ -7,7 +7,7 @@ Use Machine Learning Algrithoms to analysis people's gait and recogonize them by
 
 将数据集每人序列帧图像平均分为两部分，一部分为训练集，一部分为测试集
 
-对行人二值化序列帧图像求平均得到GEI步态能量图，再采用OpenCV内置HOGDescriptor提取出GEI的HOG特征值，利用HOG特征训练SVM分类器，最终采用模型进行预测。识别率达到99.1667%
+对行人二值化序列帧图像求平均得到GEI步态能量图，再采用OpenCV内置HOGDescriptor提取出GEI的HOG特征值，利用HOG特征训练SVM分类器，最终采用模型进行预测。识别率达到100%
 
 ## 图片预处理
 对人体区域进行裁剪，将人体对称轴放于图片中央。
@@ -234,7 +234,7 @@ svm.save('svm_data.dat')
 
 采用折线图输出预测结果，横纵坐标同训练集标记类型
 
-实验结果识别率达到99.1667%
+实验结果识别率达到100%
 
 
 ```python

@@ -193,7 +193,7 @@ plt.show()
     
 
 
-![png](output_14_1.png)
+![png](/picture/output_14_1.png)
 
 
 # 对测试集构建基于GEI的HOG特征
@@ -260,7 +260,7 @@ print(correct*100.0/result.size)
     
 
 
-![png](output_20_1.png)
+![png](/picture/output_20_1.png)
 
 
     100.0
@@ -279,961 +279,961 @@ for i in range(len(trainhogs)):
 ```
 
 
-![png](picture/output_22_0.png)
+![png](/picture/output_22_0.png)
 
 
 
-![png](output_22_1.png)
+![png](/picture/output_22_1.png)
 
 
 
-![png](output_22_2.png)
+![png](/picture/output_22_2.png)
 
 
 
-![png](output_22_3.png)
+![png](/picture/output_22_3.png)
 
 
 
-![png](output_22_4.png)
+![png](/picture/output_22_4.png)
 
 
 
-![png](output_22_5.png)
+![png](/picture/output_22_5.png)
 
 
 
-![png](output_22_6.png)
+![png](/picture/output_22_6.png)
 
 
 
-![png](output_22_7.png)
+![png](/picture/output_22_7.png)
 
 
 
-![png](output_22_8.png)
+![png](/picture/output_22_8.png)
 
 
 
-![png](output_22_9.png)
+![png](/picture/output_22_9.png)
 
 
 
-![png](output_22_10.png)
+![png](/picture/output_22_10.png)
 
 
 
-![png](output_22_11.png)
+![png](/picture/output_22_11.png)
 
 
 
-![png](output_22_12.png)
+![png](/picture/output_22_12.png)
 
 
 
-![png](output_22_13.png)
+![png](/picture/output_22_13.png)
 
 
 
-![png](output_22_14.png)
+![png](/picture/output_22_14.png)
 
 
 
-![png](output_22_15.png)
+![png](/picture/output_22_15.png)
 
 
 
-![png](output_22_16.png)
+![png](/picture/output_22_16.png)
 
 
 
-![png](output_22_17.png)
+![png](/picture/output_22_17.png)
 
 
 
-![png](output_22_18.png)
+![png](/picture/output_22_18.png)
 
 
 
-![png](output_22_19.png)
+![png](/picture/output_22_19.png)
 
 
 
-![png](output_22_20.png)
+![png](/picture/output_22_20.png)
 
 
 
-![png](output_22_21.png)
+![png](/picture/output_22_21.png)
 
 
 
-![png](output_22_22.png)
+![png](/picture/output_22_22.png)
 
 
 
-![png](output_22_23.png)
+![png](/picture/output_22_23.png)
 
 
 
-![png](output_22_24.png)
+![png](/picture/output_22_24.png)
 
 
 
-![png](output_22_25.png)
+![png](/picture/output_22_25.png)
 
 
 
-![png](output_22_26.png)
+![png](/picture/output_22_26.png)
 
 
 
-![png](output_22_27.png)
+![png](/picture/output_22_27.png)
 
 
 
-![png](output_22_28.png)
+![png](/picture/output_22_28.png)
 
 
 
-![png](output_22_29.png)
+![png](/picture/output_22_29.png)
 
 
 
-![png](output_22_30.png)
+![png](/picture/output_22_30.png)
 
 
 
-![png](output_22_31.png)
+![png](/picture/output_22_31.png)
 
 
 
-![png](output_22_32.png)
+![png](/picture/output_22_32.png)
 
 
 
-![png](output_22_33.png)
+![png](/picture/output_22_33.png)
 
 
 
-![png](output_22_34.png)
+![png](/picture/output_22_34.png)
 
 
 
-![png](output_22_35.png)
+![png](/picture/output_22_35.png)
 
 
 
-![png](output_22_36.png)
+![png](/picture/output_22_36.png)
 
 
 
-![png](output_22_37.png)
+![png](/picture/output_22_37.png)
 
 
 
-![png](output_22_38.png)
+![png](/picture/output_22_38.png)
 
 
 
-![png](output_22_39.png)
+![png](/picture/output_22_39.png)
 
 
 
-![png](output_22_40.png)
+![png](/picture/output_22_40.png)
 
 
 
-![png](output_22_41.png)
+![png](/picture/output_22_41.png)
 
 
 
-![png](output_22_42.png)
+![png](/picture/output_22_42.png)
 
 
 
-![png](output_22_43.png)
+![png](/picture/output_22_43.png)
 
 
 
-![png](output_22_44.png)
+![png](/picture/output_22_44.png)
 
 
 
-![png](output_22_45.png)
+![png](/picture/output_22_45.png)
 
 
 
-![png](output_22_46.png)
+![png](/picture/output_22_46.png)
 
 
 
-![png](output_22_47.png)
+![png](/picture/output_22_47.png)
 
 
 
-![png](output_22_48.png)
+![png](/picture/output_22_48.png)
 
 
 
-![png](output_22_49.png)
+![png](/picture/output_22_49.png)
 
 
 
-![png](output_22_50.png)
+![png](/picture/output_22_50.png)
 
 
 
-![png](output_22_51.png)
+![png](/picture/output_22_51.png)
 
 
 
-![png](output_22_52.png)
+![png](/picture/output_22_52.png)
 
 
 
-![png](output_22_53.png)
+![png](/picture/output_22_53.png)
 
 
 
-![png](output_22_54.png)
+![png](/picture/output_22_54.png)
 
 
 
-![png](output_22_55.png)
+![png](/picture/output_22_55.png)
 
 
 
-![png](output_22_56.png)
+![png](/picture/output_22_56.png)
 
 
 
-![png](output_22_57.png)
+![png](/picture/output_22_57.png)
 
 
 
-![png](output_22_58.png)
+![png](/picture/output_22_58.png)
 
 
 
-![png](output_22_59.png)
+![png](/picture/output_22_59.png)
 
 
 
-![png](output_22_60.png)
+![png](/picture/output_22_60.png)
 
 
 
-![png](output_22_61.png)
+![png](/picture/output_22_61.png)
 
 
 
-![png](output_22_62.png)
+![png](/picture/output_22_62.png)
 
 
 
-![png](output_22_63.png)
+![png](/picture/output_22_63.png)
 
 
 
-![png](output_22_64.png)
+![png](/picture/output_22_64.png)
 
 
 
-![png](output_22_65.png)
+![png](/picture/output_22_65.png)
 
 
 
-![png](output_22_66.png)
+![png](/picture/output_22_66.png)
 
 
 
-![png](output_22_67.png)
+![png](/picture/output_22_67.png)
 
 
 
-![png](output_22_68.png)
+![png](/picture/output_22_68.png)
 
 
 
-![png](output_22_69.png)
+![png](/picture/output_22_69.png)
 
 
 
-![png](output_22_70.png)
+![png](/picture/output_22_70.png)
 
 
 
-![png](output_22_71.png)
+![png](/picture/output_22_71.png)
 
 
 
-![png](output_22_72.png)
+![png](/picture/output_22_72.png)
 
 
 
-![png](output_22_73.png)
+![png](/picture/output_22_73.png)
 
 
 
-![png](output_22_74.png)
+![png](/picture/output_22_74.png)
 
 
 
-![png](output_22_75.png)
+![png](/picture/output_22_75.png)
 
 
 
-![png](output_22_76.png)
+![png](/picture/output_22_76.png)
 
 
 
-![png](output_22_77.png)
+![png](/picture/output_22_77.png)
 
 
 
-![png](output_22_78.png)
+![png](/picture/output_22_78.png)
 
 
 
-![png](output_22_79.png)
+![png](/picture/output_22_79.png)
 
 
 
-![png](output_22_80.png)
+![png](/picture/output_22_80.png)
 
 
 
-![png](output_22_81.png)
+![png](/picture/output_22_81.png)
 
 
 
-![png](output_22_82.png)
+![png](/picture/output_22_82.png)
 
 
 
-![png](output_22_83.png)
+![png](/picture/output_22_83.png)
 
 
 
-![png](output_22_84.png)
+![png](/picture/output_22_84.png)
 
 
 
-![png](output_22_85.png)
+![png](/picture/output_22_85.png)
 
 
 
-![png](output_22_86.png)
+![png](/picture/output_22_86.png)
 
 
 
-![png](output_22_87.png)
+![png](/picture/output_22_87.png)
 
 
 
-![png](output_22_88.png)
+![png](/picture/output_22_88.png)
 
 
 
-![png](output_22_89.png)
+![png](/picture/output_22_89.png)
 
 
 
-![png](output_22_90.png)
+![png](/picture/output_22_90.png)
 
 
 
-![png](output_22_91.png)
+![png](/picture/output_22_91.png)
 
 
 
-![png](output_22_92.png)
+![png](/picture/output_22_92.png)
 
 
 
-![png](output_22_93.png)
+![png](/picture/output_22_93.png)
 
 
 
-![png](output_22_94.png)
+![png](/picture/output_22_94.png)
 
 
 
-![png](output_22_95.png)
+![png](/picture/output_22_95.png)
 
 
 
-![png](output_22_96.png)
+![png](/picture/output_22_96.png)
 
 
 
-![png](output_22_97.png)
+![png](/picture/output_22_97.png)
 
 
 
-![png](output_22_98.png)
+![png](/picture/output_22_98.png)
 
 
 
-![png](output_22_99.png)
+![png](/picture/output_22_99.png)
 
 
 
-![png](output_22_100.png)
+![png](/picture/output_22_100.png)
 
 
 
-![png](output_22_101.png)
+![png](/picture/output_22_101.png)
 
 
 
-![png](output_22_102.png)
+![png](/picture/output_22_102.png)
 
 
 
-![png](output_22_103.png)
+![png](/picture/output_22_103.png)
 
 
 
-![png](output_22_104.png)
+![png](/picture/output_22_104.png)
 
 
 
-![png](output_22_105.png)
+![png](/picture/output_22_105.png)
 
 
 
-![png](output_22_106.png)
+![png](/picture/output_22_106.png)
 
 
 
-![png](output_22_107.png)
+![png](/picture/output_22_107.png)
 
 
 
-![png](output_22_108.png)
+![png](/picture/output_22_108.png)
 
 
 
-![png](output_22_109.png)
+![png](/picture/output_22_109.png)
 
 
 
-![png](output_22_110.png)
+![png](/picture/output_22_110.png)
 
 
 
-![png](output_22_111.png)
+![png](/picture/output_22_111.png)
 
 
 
-![png](output_22_112.png)
+![png](/picture/output_22_112.png)
 
 
 
-![png](output_22_113.png)
+![png](/picture/output_22_113.png)
 
 
 
-![png](output_22_114.png)
+![png](/picture/output_22_114.png)
 
 
 
-![png](output_22_115.png)
+![png](/picture/output_22_115.png)
 
 
 
-![png](output_22_116.png)
+![png](/picture/output_22_116.png)
 
 
 
-![png](output_22_117.png)
+![png](/picture/output_22_117.png)
 
 
 
-![png](output_22_118.png)
+![png](/picture/output_22_118.png)
 
 
 
-![png](output_22_119.png)
+![png](/picture/output_22_119.png)
 
 
 
-![png](output_22_120.png)
+![png](/picture/output_22_120.png)
 
 
 
-![png](output_22_121.png)
+![png](/picture/output_22_121.png)
 
 
 
-![png](output_22_122.png)
+![png](/picture/output_22_122.png)
 
 
 
-![png](output_22_123.png)
+![png](/picture/output_22_123.png)
 
 
 
-![png](output_22_124.png)
+![png](/picture/output_22_124.png)
 
 
 
-![png](output_22_125.png)
+![png](/picture/output_22_125.png)
 
 
 
-![png](output_22_126.png)
+![png](/picture/output_22_126.png)
 
 
 
-![png](output_22_127.png)
+![png](/picture/output_22_127.png)
 
 
 
-![png](output_22_128.png)
+![png](/picture/output_22_128.png)
 
 
 
-![png](output_22_129.png)
+![png](/picture/output_22_129.png)
 
 
 
-![png](output_22_130.png)
+![png](/picture/output_22_130.png)
 
 
 
-![png](output_22_131.png)
+![png](/picture/output_22_131.png)
 
 
 
-![png](output_22_132.png)
+![png](/picture/output_22_132.png)
 
 
 
-![png](output_22_133.png)
+![png](/picture/output_22_133.png)
 
 
 
-![png](output_22_134.png)
+![png](/picture/output_22_134.png)
 
 
 
-![png](output_22_135.png)
+![png](/picture/output_22_135.png)
 
 
 
-![png](output_22_136.png)
+![png](/picture/output_22_136.png)
 
 
 
-![png](output_22_137.png)
+![png](/picture/output_22_137.png)
 
 
 
-![png](output_22_138.png)
+![png](/picture/output_22_138.png)
 
 
 
-![png](output_22_139.png)
+![png](/picture/output_22_139.png)
 
 
 
-![png](output_22_140.png)
+![png](/picture/output_22_140.png)
 
 
 
-![png](output_22_141.png)
+![png](/picture/output_22_141.png)
 
 
 
-![png](output_22_142.png)
+![png](/picture/output_22_142.png)
 
 
 
-![png](output_22_143.png)
+![png](/picture/output_22_143.png)
 
 
 
-![png](output_22_144.png)
+![png](/picture/output_22_144.png)
 
 
 
-![png](output_22_145.png)
+![png](/picture/output_22_145.png)
 
 
 
-![png](output_22_146.png)
+![png](/picture/output_22_146.png)
 
 
 
-![png](output_22_147.png)
+![png](/picture/output_22_147.png)
 
 
 
-![png](output_22_148.png)
+![png](/picture/output_22_148.png)
 
 
 
-![png](output_22_149.png)
+![png](/picture/output_22_149.png)
 
 
 
-![png](output_22_150.png)
+![png](/picture/output_22_150.png)
 
 
 
-![png](output_22_151.png)
+![png](/picture/output_22_151.png)
 
 
 
-![png](output_22_152.png)
+![png](/picture/output_22_152.png)
 
 
 
-![png](output_22_153.png)
+![png](/picture/output_22_153.png)
 
 
 
-![png](output_22_154.png)
+![png](/picture/output_22_154.png)
 
 
 
-![png](output_22_155.png)
+![png](/picture/output_22_155.png)
 
 
 
-![png](output_22_156.png)
+![png](/picture/output_22_156.png)
 
 
 
-![png](output_22_157.png)
+![png](/picture/output_22_157.png)
 
 
 
-![png](output_22_158.png)
+![png](/picture/output_22_158.png)
 
 
 
-![png](output_22_159.png)
+![png](/picture/output_22_159.png)
 
 
 
-![png](output_22_160.png)
+![png](/picture/output_22_160.png)
 
 
 
-![png](output_22_161.png)
+![png](/picture/output_22_161.png)
 
 
 
-![png](output_22_162.png)
+![png](/picture/output_22_162.png)
 
 
 
-![png](output_22_163.png)
+![png](/picture/output_22_163.png)
 
 
 
-![png](output_22_164.png)
+![png](/picture/output_22_164.png)
 
 
 
-![png](output_22_165.png)
+![png](/picture/output_22_165.png)
 
 
 
-![png](output_22_166.png)
+![png](/picture/output_22_166.png)
 
 
 
-![png](output_22_167.png)
+![png](/picture/output_22_167.png)
 
 
 
-![png](output_22_168.png)
+![png](/picture/output_22_168.png)
 
 
 
-![png](output_22_169.png)
+![png](/picture/output_22_169.png)
 
 
 
-![png](output_22_170.png)
+![png](/picture/output_22_170.png)
 
 
 
-![png](output_22_171.png)
+![png](/picture/output_22_171.png)
 
 
 
-![png](output_22_172.png)
+![png](/picture/output_22_172.png)
 
 
 
-![png](output_22_173.png)
+![png](/picture/output_22_173.png)
 
 
 
-![png](output_22_174.png)
+![png](/picture/output_22_174.png)
 
 
 
-![png](output_22_175.png)
+![png](/picture/output_22_175.png)
 
 
 
-![png](output_22_176.png)
+![png](/picture/output_22_176.png)
 
 
 
-![png](output_22_177.png)
+![png](/picture/output_22_177.png)
 
 
 
-![png](output_22_178.png)
+![png](/picture/output_22_178.png)
 
 
 
-![png](output_22_179.png)
+![png](/picture/output_22_179.png)
 
 
 
-![png](output_22_180.png)
+![png](/picture/output_22_180.png)
 
 
 
-![png](output_22_181.png)
+![png](/picture/output_22_181.png)
 
 
 
-![png](output_22_182.png)
+![png](/picture/output_22_182.png)
 
 
 
-![png](output_22_183.png)
+![png](/picture/output_22_183.png)
 
 
 
-![png](output_22_184.png)
+![png](/picture/output_22_184.png)
 
 
 
-![png](output_22_185.png)
+![png](/picture/output_22_185.png)
 
 
 
-![png](output_22_186.png)
+![png](/picture/output_22_186.png)
 
 
 
-![png](output_22_187.png)
+![png](/picture/output_22_187.png)
 
 
 
-![png](output_22_188.png)
+![png](/picture/output_22_188.png)
 
 
 
-![png](output_22_189.png)
+![png](/picture/output_22_189.png)
 
 
 
-![png](output_22_190.png)
+![png](/picture/output_22_190.png)
 
 
 
-![png](output_22_191.png)
+![png](/picture/output_22_191.png)
 
 
 
-![png](output_22_192.png)
+![png](/picture/output_22_192.png)
 
 
 
-![png](output_22_193.png)
+![png](/picture/output_22_193.png)
 
 
 
-![png](output_22_194.png)
+![png](/picture/output_22_194.png)
 
 
 
-![png](output_22_195.png)
+![png](/picture/output_22_195.png)
 
 
 
-![png](output_22_196.png)
+![png](/picture/output_22_196.png)
 
 
 
-![png](output_22_197.png)
+![png](/picture/output_22_197.png)
 
 
 
-![png](output_22_198.png)
+![png](/picture/output_22_198.png)
 
 
 
-![png](output_22_199.png)
+![png](/picture/output_22_199.png)
 
 
 
-![png](output_22_200.png)
+![png](/picture/output_22_200.png)
 
 
 
-![png](output_22_201.png)
+![png](/picture/output_22_201.png)
 
 
 
-![png](output_22_202.png)
+![png](/picture/output_22_202.png)
 
 
 
-![png](output_22_203.png)
+![png](/picture/output_22_203.png)
 
 
 
-![png](output_22_204.png)
+![png](/picture/output_22_204.png)
 
 
 
-![png](output_22_205.png)
+![png](/picture/output_22_205.png)
 
 
 
-![png](output_22_206.png)
+![png](/picture/output_22_206.png)
 
 
 
-![png](output_22_207.png)
+![png](/picture/output_22_207.png)
 
 
 
-![png](output_22_208.png)
+![png](/picture/output_22_208.png)
 
 
 
-![png](output_22_209.png)
+![png](/picture/output_22_209.png)
 
 
 
-![png](output_22_210.png)
+![png](/picture/output_22_210.png)
 
 
 
-![png](output_22_211.png)
+![png](/picture/output_22_211.png)
 
 
 
-![png](output_22_212.png)
+![png](/picture/output_22_212.png)
 
 
 
-![png](output_22_213.png)
+![png](/picture/output_22_213.png)
 
 
 
-![png](output_22_214.png)
+![png](/picture/output_22_214.png)
 
 
 
-![png](output_22_215.png)
+![png](/picture/output_22_215.png)
 
 
 
-![png](output_22_216.png)
+![png](/picture/output_22_216.png)
 
 
 
-![png](output_22_217.png)
+![png](/picture/output_22_217.png)
 
 
 
-![png](output_22_218.png)
+![png](/picture/output_22_218.png)
 
 
 
-![png](output_22_219.png)
+![png](/picture/output_22_219.png)
 
 
 
-![png](output_22_220.png)
+![png](/picture/output_22_220.png)
 
 
 
-![png](output_22_221.png)
+![png](/picture/output_22_221.png)
 
 
 
-![png](output_22_222.png)
+![png](/picture/output_22_222.png)
 
 
 
-![png](output_22_223.png)
+![png](/picture/output_22_223.png)
 
 
 
-![png](output_22_224.png)
+![png](/picture/output_22_224.png)
 
 
 
-![png](output_22_225.png)
+![png](/picture/output_22_225.png)
 
 
 
-![png](output_22_226.png)
+![png](/picture/output_22_226.png)
 
 
 
-![png](output_22_227.png)
+![png](/picture/output_22_227.png)
 
 
 
-![png](output_22_228.png)
+![png](/picture/output_22_228.png)
 
 
 
-![png](output_22_229.png)
+![png](/picture/output_22_229.png)
 
 
 
-![png](output_22_230.png)
+![png](/picture/output_22_230.png)
 
 
 
-![png](output_22_231.png)
+![png](/picture/output_22_231.png)
 
 
 
-![png](output_22_232.png)
+![png](/picture/output_22_232.png)
 
 
 
-![png](output_22_233.png)
+![png](/picture/output_22_233.png)
 
 
 
-![png](output_22_234.png)
+![png](/picture/output_22_234.png)
 
 
 
-![png](output_22_235.png)
+![png](/picture/output_22_235.png)
 
 
 
-![png](output_22_236.png)
+![png](/picture/output_22_236.png)
 
 
 
-![png](output_22_237.png)
+![png](/picture/output_22_237.png)
 
 
 
-![png](output_22_238.png)
+![png](/picture/output_22_238.png)
 
 
 
-![png](output_22_239.png)
+![png](/picture/output_22_239.png)
 

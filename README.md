@@ -228,7 +228,7 @@ print(testData.shape)
     (240, 20736, 1)
     
 
-# 采用线性内核函数训练OpenCV内置SVM分类器
+# 采用线性核函数训练OpenCV内置SVM分类器
 
 
 ```python
@@ -278,7 +278,7 @@ print(correct*100.0/result.size)
     99.16666666666667
     
 
-# 输出测试集与训练集对用HOG,GEI直观对比
+# 输出测试集与训练集对应HOG,GEI直观对比
 
 
 ```python

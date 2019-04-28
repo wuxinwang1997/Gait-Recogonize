@@ -279,7 +279,7 @@ for i in range(len(trainhogs)):
 ```
 
 
-![png](output_22_0.png)
+![png](picture/output_22_0.png)
 
 
 

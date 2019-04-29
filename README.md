@@ -228,7 +228,67 @@ svm.save('svm_data.dat')
 
 实验结果识别率达到100%
 
+```python
+result = svm.predict(testData)[1].astype("int")
+print(result.T)
+plt.plot(result)
+plt.show()
+mask = result==responses
+correct = np.count_nonzero(mask)
+print(correct*100.0/result.size)
+```
 
+    [[ 0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1
+       2  2  2  2  2  2  2  2  2  2  2  2  3  3  3  3  3  3  3  3  3  3  3  3
+       4  4  4  4  4  4  4  4  4  4  4  4  5  5  5  5  5  5  5  5  5  5  5  5
+       6  6  6  6  6  6  6  6  6  6  6  6  7  7  7  7  7  7  7  7  7  7  7  7
+       8  8  8  8  8  8  8  8  8  8  8  8  9  9  9  9  9  9  9  9  9  9  9  9
+      10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11
+      12 12 12 12 12 12 12 12 12 12 12 12 13 13 13 13 13 13 13 13 13 13 13 13
+      14 14 14 14 14 14 14 14 14 14 14 14 15 15 15 15 15 15 15 15 15 15 15 15
+      16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 17 17 17
+      18 18 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 19]]
+    
+
+
+![png](output_20_1.png)
+
+
+    100.0
+    
+ # 将数据分为训练集与测试集两部分
+训练集每人每方向图片数目从1到26各一组
+
+测试集为每人数据的后8张图片
+
+
+```python
+minlength = len(cells[0])//2
+for cell in cells:
+    if minlength > len(cell)//2:
+        minlength = len(cell)//2
+    else:
+        continue
+        
+        
+train_cells = []
+for cell in cells:
+    train_cells.append(cell[:len(cell)//2])
+    
+test = []
+for i in range(1,minlength):
+    test_cells = []
+    for cell in cells:
+        test_cells.append(cell[-minlength+i:])
+    test.append(test_cells)
+print(len(train_cells))
+print(len(test))
+```
+
+    240
+    17
+    
+    
 # 对训练集构建基于GEI的HOG特征
 将训练集数据读入，首先提取GEI步态能量图
 

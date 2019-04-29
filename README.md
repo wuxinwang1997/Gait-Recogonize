@@ -229,6 +229,120 @@ svm.save('svm_data.dat')
 实验结果识别率达到100%
 
 
+# 对训练集构建基于GEI的HOG特征
+将训练集数据读入，首先提取GEI步态能量图
+
+然后对GEI提取HOG特征，每张GEI的HOG特征为20736 * 1大小
+
+标记240个训练数据，按照人进行编号，每个人12组数据，共20人
+
+输出折线图横轴为HOG数据编号，共240个；纵轴为对应人员编号，共20个
+
+
+```python
+responses = []
+
+traingeis = []
+for train_cell in train_cells:
+    traingeis.append(get_GEI(train_cell))
+
+trainhogs = []
+for traingei in traingeis:
+    trainhog = get_Hog(traingei)
+    trainhogs.append(trainhog)
+trainData = np.float32(trainhogs).reshape(-1,20736,1)
+responses = np.repeat(np.arange(20),12)[:,np.newaxis]
+print(trainData.shape)
+```
+
+    (240, 20736, 1)
+    
+
+# 对测试集构建基于GEI的HOG特征
+
+与训练集处理方式相同，每个HOG特征为20736 * 1大小
+
+
+```python
+def maketestData(test_cells):
+    testgeis = []
+    for test_cell in test_cells:
+        testgeis.append(get_GEI(test_cell))
+    testhogs = []
+    for testgei in testgeis:
+        testhog = get_Hog(testgei)
+        testhogs.append(testhog)
+    testData = np.float32(testhogs).reshape(-1,20736,1)
+    return testData
+
+testDatas = []
+for test_cells in test:
+    testDatas.append(maketestData(test_cells))
+print(len(testDatas))
+```
+
+    17
+    
+
+# 采用线性内核函数训练OpenCV内置SVM分类器
+
+
+```python
+svm = cv.ml.SVM_create()
+svm.setKernel(cv.ml.SVM_LINEAR)
+svm.setType(cv.ml.SVM_C_SVC)
+svm.setC(8.35)
+svm.setGamma(3.58)
+svm.train(trainData,cv.ml.ROW_SAMPLE,responses)
+svm.save('svm_data.dat')
+```
+
+# 使用训练好的模型进行预测
+分析测试集大小对模型预测准确度的影响
+
+
+```python
+results = []
+corrects = []
+def svmpredict(i):
+    result = svm.predict(testDatas[len(testDatas)-i-1])[1].astype("int")
+    mask = result==responses
+    correct = np.count_nonzero(mask)
+    results.append(result)
+    corrects.append(correct*100.0/result.size)
+    print(correct*100.0/result.size)
+
+for i in range(len(test)):
+    svmpredict(i)
+plt.title("Predict correct rate")
+plt.xlabel("Number of images choosen to test model")
+plt.ylabel("Correct rate")
+plt.plot(corrects)
+plt.show()
+```
+
+    17.916666666666668
+    25.416666666666668
+    35.833333333333336
+    49.166666666666664
+    57.5
+    66.66666666666667
+    70.41666666666667
+    74.16666666666667
+    79.16666666666667
+    84.58333333333333
+    88.33333333333333
+    90.41666666666667
+    91.25
+    92.5
+    93.75
+    96.25
+    95.83333333333333
+    
+
+
+![png](output_18_1.png)
+
 ```python
 result = svm.predict(testData)[1].astype("int")
 print(result.T)

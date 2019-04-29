@@ -62,12 +62,6 @@ def get_GEI(imgs):
     GEI = GEI/len(imgs)
 
     return (GEI*255).astype("uint8")
-    # GEI = imgs[0].astype("uint8")
-    # for img in imgs[1:]:
-    #     GEI += img.astype("uint8")
-    # GEI = GEI/len(imgs)
-
-    # return (GEI).astype("uint8")
 ```
 
 # 取HOG特征
@@ -144,10 +138,8 @@ print(labels)
 train_cells = []
 test_cells = []
 for cell in cells:
-    train_cells.append(cell[0:-1:2])
-    test_cells.append(cell[1:-1:2])
-    # train_cells.append(cell[:len(cell)//2])
-    # test_cells.append(cell[len(cell)//2:])
+    train_cells.append(cell[:len(cell)//2])
+    test_cells.append(cell[len(cell)//2:])
 ```
 
 # 对训练集构建基于GEI的HOG特征

@@ -251,7 +251,7 @@ print(correct*100.0/result.size)
     
 
 
-![png](output_20_1.png)
+![png](/pciture/output_20_1.png)
 
 
     100.0
